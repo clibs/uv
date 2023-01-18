@@ -1,7 +1,7 @@
 {
   "name": "uv",
   "repo": "libuv/libuv",
-  "version": "master",
+  "version": "v1.x",
   "description": "Cross-platform asynchronous I/O",
   "install": "sh autogen.sh && ./configure --prefix ${PREFIX:-/usr/local} && make install"
 }

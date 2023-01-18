@@ -3,5 +3,5 @@
   "repo": "libuv/libuv",
   "version": "master",
   "description": "Cross-platform asynchronous I/O",
-  "install": "sh autogen.sh && ./configure && make install"
+  "install": "sh autogen.sh && ./configure --prefix ${PREFIX:-/usr/local} && make install"
 }
